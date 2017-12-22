@@ -1,8 +1,8 @@
 import React from 'react'
 import ReactDOM from 'react-dom';
 
-import App from './components/App';
+import Dashboard from './components/Dashboard';
 
 Meteor.startup( () => {
-    ReactDOM.render( <App/>, document.querySelector( '.render-target' ) )
+    ReactDOM.render( <Dashboard/>, document.querySelector( '.render-target' ) )
 } );
